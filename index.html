@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/parallaxie.min.js"></script>
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/wow.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+<header>
+<h1 class="wow Bouncein">中國著名女性作家---張愛玲</h1>
+<nav>
+  <p><a href="#a01">生平介紹</a> <a href="#a02">寫作風格</a> <a href="#a03">作品</a> <a href="#a04">照片 </a><a href="#a05">紀念</a> <a href="#a06">相關影片</a></p><hr>
+</nav>
+<div class="heroimg"></div>
+</header>
+<main>
+  <article>
+  <h3 id="a01">生平介紹</h3>
+    <p>張愛玲（1920年9月30日－1995年9月8日），原名張煐，筆名梁京等，是出身上海、後來長年定居於美國的散文家、小說家、劇本作家及劇本評論家。她是中國最著名的女性作家之一。</p>
+  </article>
+  <article>
+  <h3 id="a02">寫作風格</h3>
+    <p>她的主要寫作風格被歸類於現實主義和現代主義。</p>
+    <ol>
+      <li>有文學評論者認為，她建立了另一種描寫中國抗日戰爭下中國大眾生活的寫作方式。</li>
+      <li>該種敘事方式與當時（及其後），中國文學界對於該段時期之主流描述方式有明顯差異。</li>
+      <li>在她主要作品中，她對現代史的印象派觀點，被她以對於顏色、線條、形狀、質地和情緒等相關描述詞彙展示。</li>
+      <li>該些描述經常被體現於其作品中所顯示之女性服裝風格變化。</li>
+    </ol>
+  </article>
+  <article class="book">
+  <h3 id="a03">作品</h3>
+    <ul>
+      <li>短篇小說</li>
+      <p>《封鎖》《心經》《琉璃瓦》《留情》《茉莉香片》《花凋》《鴻鸞禧》《不幸的她》《桂花蒸阿小悲秋》《色，戒》</p>
+      <li>中篇小說</li>
+      <p>《金鎖記》《第一爐香》《傾城之戀》《同學少年都不賤》《多少恨》《連環套》《浮花浪蕊》《創世紀》</p>
+      <li>長篇小說</li>
+      <p>《半生緣》《秧歌》《赤地之戀》《怨女》</p>
+      <li>散文集</li>
+      <p>《流言》《惘然記》</p>
+    </ul>
+    <h3 id="a04">照片</h3>
+  </article>
+  <article>
+  <p>張愛玲年輕時期的照片</p>
+    <img src="張愛玲.jpeg" width="450" height="557" alt="chiang"/>  <img src="張愛玲 2.jpeg" width="450" height="476" alt=""/></article>
+  <article>
+  <h3 id="a05">紀念</h3>
+    <ol>
+      <li>2010年為紀念張愛玲九十冥誕，由宋以朗贊助，香港浸會大學舉辦張愛玲國際學術研討會，由來自國際近八十位學者參加。台灣舉辦四場張愛玲系列講座，主講人有陳文茜、蔡康永、韓良露、符立中、黃建業，由楊澤主持。中國大陸首次舉辦張愛玲學術研討會，在北京大學百周年紀念講堂舉行，參加學者專家有陳子善、吳福輝、宋以朗、格非、止庵、符立中、馬家輝。</li>
+      <li>2011年為紀念張愛玲九十一冥誕，首次舉辦張愛玲紀念音樂會，在台北國家音樂廳舉行，曲目由符立中根據張愛玲所編劇突顯張愛玲永恆的文學生命力；也藉由立體活動展的創意模式，展示張愛玲的私人物件及難得面世的手稿與畫作，邀請讀者走進張愛玲的生活空間，親臨神祕又感性的創作人生。</li>
+      <li>2020年9月28日，適逢張愛玲的百周年誕辰，香港大學美術博物館偕同香港大學文學院及比較文學系合辦 《百年愛玲，人文港大：張愛玲百年誕辰紀念文獻展》，從原始檔案中張愛玲及其師友的資料文獻來全面呈現她的港大生活與因緣。 線上展覽由黃心村、羅諾德和陳承焜策展。</li>
+      <li>2020年9月30日，為紀念張愛玲百歲冥誕，Google臺灣版網站的首頁塗鴉變成一位穿著紅色滾黑邊旗袍的女子，身旁盛放嬌豔的紅玫瑰與白玫瑰</li>
+    </ol>
+  </article>
+  <article>
+  <h3 id="a06">相關影片</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lp6RxvKYRGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </article>
+</main>
+<footer>
+  <h6>版權所有</h6>
+</footer>
+</div>
+<script>
+$('header').parallaxie({speed: 0.5, offset: -50});
+</script>
+
+<script>
+$('.book').parallaxie({speed: 0.7});
+</script>
+<script>
+new WOW().init();
+</script>
+</body>
+</html>
